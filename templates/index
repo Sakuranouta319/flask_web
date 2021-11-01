@@ -1,1 +1,39 @@
+<html>
+<head>
+    <body bgcolor="#cccccc">
+    {% if title %}
+    <title>{{ title }}</title>
+    {% else %}
+    <title>自我介紹</title>
+    {% endif %}
+</head>
+    <h2>學籍資料</h2>
+    {% for p in data %}
+    <p>{{ p }}</p>
+    {% endfor %}
 
+    <h2>自介</h2>
+    <div>知道自己對coding有興趣且電機類群沒資工可以選所以選資管，目前覺得系上給的資源很好，</div>
+        <div>學習在哪都可以學，如何充分利用獲得的資源來學習是我認為最重要的，以前有學過Arduino、</div>
+            <div>App Inventor，個性謙遜友善，認為自己該學習的知識還有很多，遇到不懂得東西一定會上網查。
+
+    <h2>進實驗室原因</h2>
+    <div>
+        想跳脫舒適圈，希望在這邊能真正找到可以充實學習的知識，能否讓自己認知到讀大學的價值且所做的一切
+        <div>
+            皆是有意義的，沒有嘗試過的東西都會有興趣去了解，要知道雛鳥要想飛上天，首要一定是自己願意嘗試且不害怕
+            <div>
+                摔倒，看學長姊的專題或比賽能得名，我覺得很厲害，希望自己也有那個能力參加比賽並獲得名次，體現自身的價值。       
+            </div>
+        </div>
+    </div>
+    
+    <div>
+        <img src="static/images/bird.gif"  height="190" width="170" style="position:absolute; left:310"/>
+        <img src="static/images/bird2.gif" height="190" width="170" style="position:absolute; left:480"/>
+    </div>
+
+    <body 
+    background="static/images/diving.jpg">
+</body>
+</html>
