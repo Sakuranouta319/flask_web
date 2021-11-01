@@ -11,5 +11,8 @@ def index():  #用來回應網站首頁的函式
     }
     return render_template('index.html', title = '自我介紹', data=paragraphs) #回傳網站的內容
 
+if __name__ == '__main__':
+    app.run(host='0.0.0.0')
+
 #啟動網站伺服器
 app.run(debug=True)
